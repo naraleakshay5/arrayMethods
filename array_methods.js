@@ -13,3 +13,8 @@ const even = numbers.find((num) => num % 2 === 0); // 2
 console.log("findIndex");
 const number = [1, 2, 3, 4, 5];
 const evenIndex = number.findIndex((num) => num % 2 === 0); // 1
+
+//includes
+console.log("includes");
+const inc = [1, 2, 3, 4, 5];
+const includesThree = inc.includes(3); // true
