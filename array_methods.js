@@ -18,3 +18,13 @@ const evenIndex = number.findIndex((num) => num % 2 === 0); // 1
 console.log("includes");
 const inc = [1, 2, 3, 4, 5];
 const includesThree = inc.includes(3); // true
+
+//fill
+console.log("Fill");
+const arr1 = [1, 2, 3, 4, 5];
+arr1.fill(0); // [0, 0, 0, 0, 0]
+
+//Sort
+console.log("Sort");
+const arr2 = [5, 3, 1, 4, 2];
+arr2.sort(); // [1, 2, 3, 4, 5]
